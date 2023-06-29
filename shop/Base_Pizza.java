@@ -1,8 +1,6 @@
 package shop;
 
-public class Base_Pizza implements Pizza {
-
-    protected float total;
+public class Base_Pizza extends Pizza {
 
     Base_Pizza() {
         this.total = 0.00f;

@@ -1,16 +1,16 @@
 package shop;
 
-public interface Pizza {
+public abstract class Pizza {
+    float total;
+    abstract void  cheese_Type(String type);
 
-    void cheese_Type(String type);
+    abstract void  extra_Cheese();
 
-    void extra_Cheese();
+    abstract void  extra_toppings();
 
-    void extra_toppings();
+    abstract void  take_Away();
 
-    void take_Away();
+    abstract void  addOn_List();
 
-    void addOn_List();
-
-    void pizza_Type_List();
+    abstract void  pizza_Type_List();
 }
